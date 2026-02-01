@@ -32,17 +32,24 @@ In addition, if you want to **join our community** for discussion, sharing, conn
 ## Table of Contents
 
 
-- [Related Materials](#related-materials)
-   - [Surveys](#surveys)
-   - [Github Repos](#github-repos)
-- [Paper Collection](#paper-collection)
-  - [Perception](#perception)
-  - [Decision-Making](#decision-making)
-  - [Planning](#planning)
-  - [Communication](#communication)
-  - [End-to-End](#end-to-end)
-  - [Dataset and Simulator](#dataset-and-simulator)
-  - [Security](#security)
+- [Awesome Multi-Agent Autonomous Driving 🚗 🚙 🚓 🚕 🏎️](#awesome-multi-agent-autonomous-driving-----️)
+  - [Come and Join Us! 👊🇨🇳🔥](#come-and-join-us-)
+    - [Contribution](#contribution)
+  - [Table of Contents](#table-of-contents)
+  - [Related Materials](#related-materials)
+    - [Surveys](#surveys)
+    - [Github Repos](#github-repos)
+  - [Paper Collection](#paper-collection)
+    - [Perception](#perception)
+    - [Decision-Making](#decision-making)
+    - [Planning](#planning)
+    - [Communication](#communication)
+    - [End-to-End](#end-to-end)
+    - [Dataset and Simulator](#dataset-and-simulator)
+      - [Dataset](#dataset)
+      - [Simulator](#simulator)
+    - [Security and Robustness](#security-and-robustness)
+  - [Star History](#star-history)
 
 
 ## Related Materials
@@ -100,10 +107,18 @@ In addition, if you want to **join our community** for discussion, sharing, conn
  -->
 
 ### Perception
-1. `[ICRA'25]` CoopDETR: A Unified Cooperative Perception Framework for 3D Detection via Object Query [[PDF](https://arxiv.org/pdf/2502.19313)]
-2. `[arXiv'25]` V2V-LLM: Vehicle-to-Vehicle Cooperative Autonomous Driving with Multi-Modal Large Language Models [[PDF](https://arxiv.org/pdf/2502.09980)] [[Code](https://github.com/eddyhkchiu/V2V-LLM)] [[Webpage](https://eddyhkchiu.github.io/v2vllm.github.io/)] ![](https://img.shields.io/github/stars/eddyhkchiu/V2V-LLM.svg?style=social&label=Star&maxAge=2592000)
-3. `[arXiv'25]` V2V-GoT: Vehicle-to-Vehicle Cooperative Autonomous Driving with Multimodal Large Language Models and Graph-of-Thoughts [[PDF](https://arxiv.org/abs/2509.18053)]
-4. `[Electronics'25]` Vision-Language Models for Autonomous Driving: CLIP-based Dynamic Scene Understanding [[PDF](https://www.mdpi.com/2079-9292/14/7/1282)]
+1. `[ICCV'25 Workshop]` Learning 3D Perception from Others' Predictions [[PDF](https://drivex-workshop.github.io/iccv2025/)]
+2. `[ICCV'25 Workshop]` RG-Attn: Radian Glue Attention for Multi-modal Multi-agent Cooperative Perception [[PDF](https://drivex-workshop.github.io/iccv2025/)]
+3. `[ICCV'25 Workshop]` MIC-BEV: Infrastructure-Based Multi-Camera Bird's-Eye-View Perception Transformer for 3D Object Detection [[PDF](https://drivex-workshop.github.io/iccv2025/)]
+4. `[ICCV'25 Workshop]` SlimComm: Doppler-Guided Sparse Queries for Bandwidth-Efficient Cooperative 3-D Perception [[PDF](https://drivex-workshop.github.io/iccv2025/)]
+5. `[ICCV'25 Workshop]` D3FNet: A Differential Attention Fusion Network for Fine-Grained Road Structure Extraction in Remote Perception Systems [[PDF](https://drivex-workshop.github.io/iccv2025/)]
+6. `[ICCV'25 Workshop]` Understanding What Vision-Language Models See in Traffic: PixelSHAP for Object-Level Attribution in Autonomous Driving [[PDF](https://drivex-workshop.github.io/iccv2025/)]
+7. `[ICCV'25 Workshop]` Scene-Aware Location Modeling for Data Augmentation in Automotive Object Detection [[PDF](https://drivex-workshop.github.io/iccv2025/)]
+8. `[ICCV'25 Workshop]` Cross-camera Monocular 3D Detection for Autonomous Racing [[PDF](https://drivex-workshop.github.io/iccv2025/)]
+9. `[ICRA'25]` CoopDETR: A Unified Cooperative Perception Framework for 3D Detection via Object Query [[PDF](https://arxiv.org/pdf/2502.19313)]
+10. `[arXiv'25]` V2V-LLM: Vehicle-to-Vehicle Cooperative Autonomous Driving with Multi-Modal Large Language Models [[PDF](https://arxiv.org/pdf/2502.09980)] [[Code](https://github.com/eddyhkchiu/V2V-LLM)] [[Webpage](https://eddyhkchiu.github.io/v2vllm.github.io/)] ![](https://img.shields.io/github/stars/eddyhkchiu/V2V-LLM.svg?style=social&label=Star&maxAge=2592000)
+11. `[arXiv'25]` V2V-GoT: Vehicle-to-Vehicle Cooperative Autonomous Driving with Multimodal Large Language Models and Graph-of-Thoughts [[PDF](https://arxiv.org/abs/2509.18053)]
+12. `[Electronics'25]` Vision-Language Models for Autonomous Driving: CLIP-based Dynamic Scene Understanding [[PDF](https://www.mdpi.com/2079-9292/14/7/1282)]
 5. `[CVPR'25]` CoSDH: Communication-Efficient Collaborative Perception via Supply-Demand Awareness and Intermediate-Late Hybridization [[PDF](https://arxiv.org/abs/2503.03430)] [[Code](https://github.com/Xu2729/CoSDH)] ![](https://img.shields.io/github/stars/Xu2729/CoSDH.svg?style=social&label=Star&maxAge=2592000)
 6. `[CVPR'25]` One is Plenty: A Polymorphic Feature Interpreter for Immutable Heterogeneous Collaborative Perception [[PDF](https://arxiv.org/abs/2411.16799)]
 7. `[CVPR'25]` SparseAlign: A Fully Sparse Framework for Cooperative Object Detection [[PDF](https://arxiv.org/pdf/2503.12982)]
@@ -167,42 +182,46 @@ In addition, if you want to **join our community** for discussion, sharing, conn
 
 
 ### Decision-Making
-1. `[TMC'25]` AgentsCoMerge: Large Language Model Empowered Collaborative Decision Making for Ramp Merging [[PDF](https://arxiv.org/pdf/2408.03624)]
-2. `[arXiv]` A Vehicle-Infrastructure Multi-layer Cooperative Decision-making Framework [[PDF](https://arxiv.org/pdf/2503.16552)]
-3. `[arXiv'24]` CoMAL: Collaborative Multi-Agent Large Language Models for Mixed-Autonomy Traffic [[PDF](https://arxiv.org/pdf/2410.14368)][[Code]](https://github.com/Hyan-Yao/CoMAL)
-4. `[arXiv'24]` AGENTSCODRIVER: Large Language Model Empowered Collaborative Driving with Lifelong Learning [[PDF](https://arxiv.org/pdf/2404.06345)]
-5. `[arXiv]` Research on Autonomous Driving Decision-making Strategies based Deep Reinforcement Learning [[PDF](https://arxiv.org/pdf/2408.03084)]
-6. `[ECCV'24]` MAPPO-PIS: A Multi-Agent Proximal Policy Optimization Method with Prior Intent Sharing for CAVs' Cooperative Decision-Making [[PDF]](https://arxiv.org/abs/2408.06656) [[Code]](https://github.com/CCCC1dhcgd/A-MAPPO-PIS)
-7. `[TITS'24]` Cooperative decision-making for cavs at unsignalized intersections: A marl approach with attention and hierarchical game priors [[PDF]](https://ieeexplore.ieee.org/abstract/document/10774177/)
-8. `[TITS'24]` A Multi-Agent Reinforcement Learning Approach for Safe and Efficient Behavior Planning of Connected Autonomous Vehicles [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10367764)
-9. `[TVT'24]` Towards Interactive and Learnable Cooperative Driving Automation: a Large Language Model-Driven Decision-Making Framework [[PDF]](https://ieeexplore.ieee.org/abstract/document/10933798)[[Code]](https://github.com/FanGShiYuu/CoDrivingLLM)
-10. `[TIV'24]` KoMA: Knowledge-driven Multi-agent Framework for Autonomous Driving with Large Language Models [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10745878) [[Code]](https://github.com/jkmhhh/KoMA_Code)
-11. `[ESWA'25]` CCMA: A Framework for Cascading Cooperative Multi-agent in Autonomous Driving Merging using Large Language Models [[PDF](https://www.sciencedirect.com/science/article/pii/S0957417425013399)]
-12. `[ICCV'25]` CoLMDriver: LLM-based Negotiation Benefits Cooperative Autonomous Driving [[PDF](https://openaccess.thecvf.com/content/ICCV2025/papers/Liu_CoLMDriver_LLM-based_Negotiation_Benefits_Cooperative_Autonomous_Driving_ICCV_2025_paper.pdf)]
-13. `[IEEE'25]` LMMCoDrive: Cooperative Driving with Large Multimodal Models [[PDF](https://ieeexplore.ieee.org/abstract/document/11247243/)]
-14. `[IEEE'25]` DriVLMe: Enhancing LLM-based Autonomous Driving Agents with Embodied and Social Experiences [[PDF](https://ieeexplore.ieee.org/abstract/document/10802555/)]
-15. `[arXiv'23]` LanguageMPC: Large Language Models as Decision Makers for Autonomous Driving [[PDF](https://arxiv.org/pdf/2310.03026)]
-16. `[arXiv'25]` Context-aware Decision Making in Autonomous Vehicles [[PDF](https://www.sciencedirect.com/science/article/pii/S2590005625000475)]
-17. `[arXiv'25]` Multi-Agent Deep Reinforcement Learning for Safe Autonomous Driving [[PDF](https://arxiv.org/abs/2503.19418)]
-18. `[IEEE'25]` Mixed Motivation Driven Social Multi-Agent Reinforcement Learning [[PDF](http://ieeexplore.ieee.org/document/11036678/)]
-19. `[Frontiers'25]` Multi-agent Reinforcement Learning Framework for Traffic Flow Management [[PDF](https://www.frontiersin.org/journals/mechanical-engineering/articles/10.3389/fmech.2025.1650918/full)]
-20. `[arXiv'25]` Right-of-Way Based Multi-Agent Deep Reinforcement Learning [[PDF](https://www.sciencedirect.com/science/article/abs/pii/S095741742503667X)]
-21. `[arXiv'25]` Cooperative Control of Self-Learning Traffic Signal and Connected Automated Vehicles [[PDF](https://www.sciencedirect.com/science/article/abs/pii/S0001457524004354)]
-22. `[World Electric Vehicle Journal'24]` A Review of Decision-Making and Planning for Autonomous Vehicles in Intersection Environments [[PDF](https://www.mdpi.com/2032-6653/15/3/99)]
-23. `[TVT'24]` Decision-Making for Autonomous Vehicles in Random Task Scenarios at Unsignalized Intersection Using Deep Reinforcement Learning [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10417752)]
-24. `[DDCLS'24]` A Brief Survey of Deep Reinforcement Learning for Intersection Navigation of Autonomous Vehicles [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10606719)]
-25. `[ICDE'24]` Parameterized Decision-making with Multi-modality Perception for Autonomous Driving [[PDF](https://arxiv.org/pdf/2312.11935)]
-26. `[ICDE'24]`  Parameterized Decision-Making with Multi-Modality Perception for Autonomous Driving [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10597785)]
-27. `[RAL'24]` Language-driven policy distillation for cooperative driving in multi-agent reinforcement learning [[PDF]](https://ieeexplore.ieee.org/document/10924758)
-28. `[IoTML]` Research on Autonomous Driving Decision-making Strategies based Deep Reinforcement Learning [[PDF](https://dl.acm.org/doi/pdf/10.1145/3697467.3697643)]
-29. `[ITSC'23]` Curriculum Proximal Policy Optimization with Stage-Decaying Clipping for Self-Driving at Unsignalized Intersections [[PDF](https://arxiv.org/pdf/2308.16445)]
-30. `[IV'23]` Hybrid Decision Making for Autonomous Driving in Complex Urban Scenarios [[PDF](https://ieeexplore-ieee-org.sheffield.idm.oclc.org/stamp/stamp.jsp?tp=&arnumber=10186666)]
-31. `[TIV'23]` Robust Lane Change Decision Making for Autonomous Vehicles: An Observation Adversarial Reinforcement Learning Approach [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9750867)]
-32. `[TITS'23]` Robust Decision Making for Autonomous Vehicles at Highway On-Ramps: A Constrained Adversarial Reinforcement Learning Approach [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9994638)]
-33. `[TVT'23]` Exploiting Multi-Modal Fusion for Urban Autonomous Driving Using Latent Deep Reinforcement Learning [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9934803)]
-34. `[TIV'23]`  A Multi-Vehicle Game-Theoretic Framework for Decision Making and Planning of Autonomous Vehicles in Mixed Traffic [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10268996)]
-35. `[TVT'23]`  Towards Robust Decision-Making for Autonomous Driving on Highway [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10107652)][[Code](https://github.com/Kayne0401/Robust-Decision-Making-Framework)]
-36. `[IEEE Transactions on Transportation Electrification'23]` Interaction-Aware Decision-Making for Autonomous Vehicles [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10029923)]
+1. `[ICCV'25 Workshop]` Drive-R1: Bridging Reasoning and Planning in VLMs for Autonomous Driving with Reinforcement Learning [[PDF](https://drivex-workshop.github.io/iccv2025/)]
+2. `[ICCV'25 Workshop]` Contextual-Personalized Adaptive Cruise Control via Fine-Tuned Large Language Models [[PDF](https://drivex-workshop.github.io/iccv2025/)]
+3. `[ICCV'25 Workshop]` Multi-modal Large Language Model for Training-free Vision-based Driver State [[PDF](https://drivex-workshop.github.io/iccv2025/)]
+4. `[ICCV'25 Workshop]` V2X-based Logical Scenario Understanding with Vision-Language Models [[PDF](https://drivex-workshop.github.io/iccv2025/)]
+5. `[TMC'25]` AgentsCoMerge: Large Language Model Empowered Collaborative Decision Making for Ramp Merging [[PDF](https://arxiv.org/pdf/2408.03624)]
+6. `[arXiv]` A Vehicle-Infrastructure Multi-layer Cooperative Decision-making Framework [[PDF](https://arxiv.org/pdf/2503.16552)]
+7. `[arXiv'24]` CoMAL: Collaborative Multi-Agent Large Language Models for Mixed-Autonomy Traffic [[PDF](https://arxiv.org/pdf/2410.14368)][[Code]](https://github.com/Hyan-Yao/CoMAL)
+8. `[arXiv'24]` AGENTSCODRIVER: Large Language Model Empowered Collaborative Driving with Lifelong Learning [[PDF](https://arxiv.org/pdf/2404.06345)]
+9. `[arXiv]` Research on Autonomous Driving Decision-making Strategies based Deep Reinforcement Learning [[PDF](https://arxiv.org/pdf/2408.03084)]
+10. `[ECCV'24]` MAPPO-PIS: A Multi-Agent Proximal Policy Optimization Method with Prior Intent Sharing for CAVs' Cooperative Decision-Making [[PDF]](https://arxiv.org/abs/2408.06656) [[Code]](https://github.com/CCCC1dhcgd/A-MAPPO-PIS)
+11. `[TITS'24]` Cooperative decision-making for cavs at unsignalized intersections: A marl approach with attention and hierarchical game priors [[PDF]](https://ieeexplore.ieee.org/abstract/document/10774177/)
+12. `[TITS'24]` A Multi-Agent Reinforcement Learning Approach for Safe and Efficient Behavior Planning of Connected Autonomous Vehicles [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10367764)
+13. `[TVT'24]` Towards Interactive and Learnable Cooperative Driving Automation: a Large Language Model-Driven Decision-Making Framework [[PDF]](https://ieeexplore.ieee.org/abstract/document/10933798)[[Code]](https://github.com/FanGShiYuu/CoDrivingLLM)
+14. `[TIV'24]` KoMA: Knowledge-driven Multi-agent Framework for Autonomous Driving with Large Language Models [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10745878) [[Code]](https://github.com/jkmhhh/KoMA_Code)
+15. `[ESWA'25]` CCMA: A Framework for Cascading Cooperative Multi-agent in Autonomous Driving Merging using Large Language Models [[PDF](https://www.sciencedirect.com/science/article/pii/S0957417425013399)]
+16. `[ICCV'25]` CoLMDriver: LLM-based Negotiation Benefits Cooperative Autonomous Driving [[PDF](https://openaccess.thecvf.com/content/ICCV2025/papers/Liu_CoLMDriver_LLM-based_Negotiation_Benefits_Cooperative_Autonomous_Driving_ICCV_2025_paper.pdf)]
+17. `[IEEE'25]` LMMCoDrive: Cooperative Driving with Large Multimodal Models [[PDF](https://ieeexplore.ieee.org/abstract/document/11247243/)]
+18. `[IEEE'25]` DriVLMe: Enhancing LLM-based Autonomous Driving Agents with Embodied and Social Experiences [[PDF](https://ieeexplore.ieee.org/abstract/document/10802555/)]
+19. `[arXiv'23]` LanguageMPC: Large Language Models as Decision Makers for Autonomous Driving [[PDF](https://arxiv.org/pdf/2310.03026)]
+20. `[arXiv'25]` Context-aware Decision Making in Autonomous Vehicles [[PDF](https://www.sciencedirect.com/science/article/pii/S2590005625000475)]
+21. `[arXiv'25]` Multi-Agent Deep Reinforcement Learning for Safe Autonomous Driving [[PDF](https://arxiv.org/abs/2503.19418)]
+22. `[IEEE'25]` Mixed Motivation Driven Social Multi-Agent Reinforcement Learning [[PDF](http://ieeexplore.ieee.org/document/11036678/)]
+23. `[Frontiers'25]` Multi-agent Reinforcement Learning Framework for Traffic Flow Management [[PDF](https://www.frontiersin.org/journals/mechanical-engineering/articles/10.3389/fmech.2025.1650918/full)]
+24. `[arXiv'25]` Right-of-Way Based Multi-Agent Deep Reinforcement Learning [[PDF](https://www.sciencedirect.com/science/article/abs/pii/S095741742503667X)]
+25. `[arXiv'25]` Cooperative Control of Self-Learning Traffic Signal and Connected Automated Vehicles [[PDF](https://www.sciencedirect.com/science/article/abs/pii/S0001457524004354)]
+26. `[World Electric Vehicle Journal'24]` A Review of Decision-Making and Planning for Autonomous Vehicles in Intersection Environments [[PDF](https://www.mdpi.com/2032-6653/15/3/99)]
+27. `[TVT'24]` Decision-Making for Autonomous Vehicles in Random Task Scenarios at Unsignalized Intersection Using Deep Reinforcement Learning [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10417752)]
+28. `[DDCLS'24]` A Brief Survey of Deep Reinforcement Learning for Intersection Navigation of Autonomous Vehicles [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10606719)]
+29. `[ICDE'24]` Parameterized Decision-making with Multi-modality Perception for Autonomous Driving [[PDF](https://arxiv.org/pdf/2312.11935)]
+30. `[ICDE'24]`  Parameterized Decision-Making with Multi-Modality Perception for Autonomous Driving [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10597785)]
+31. `[RAL'24]` Language-driven policy distillation for cooperative driving in multi-agent reinforcement learning [[PDF]](https://ieeexplore.ieee.org/document/10924758)
+32. `[IoTML]` Research on Autonomous Driving Decision-making Strategies based Deep Reinforcement Learning [[PDF](https://dl.acm.org/doi/pdf/10.1145/3697467.3697643)]
+33. `[ITSC'23]` Curriculum Proximal Policy Optimization with Stage-Decaying Clipping for Self-Driving at Unsignalized Intersections [[PDF](https://arxiv.org/pdf/2308.16445)]
+34. `[IV'23]` Hybrid Decision Making for Autonomous Driving in Complex Urban Scenarios [[PDF](https://ieeexplore-ieee-org.sheffield.idm.oclc.org/stamp/stamp.jsp?tp=&arnumber=10186666)]
+35. `[TIV'23]` Robust Lane Change Decision Making for Autonomous Vehicles: An Observation Adversarial Reinforcement Learning Approach [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9750867)]
+36. `[TITS'23]` Robust Decision Making for Autonomous Vehicles at Highway On-Ramps: A Constrained Adversarial Reinforcement Learning Approach [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9994638)]
+37. `[TVT'23]` Exploiting Multi-Modal Fusion for Urban Autonomous Driving Using Latent Deep Reinforcement Learning [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9934803)]
+38. `[TIV'23]`  A Multi-Vehicle Game-Theoretic Framework for Decision Making and Planning of Autonomous Vehicles in Mixed Traffic [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10268996)]
+39. `[TVT'23]`  Towards Robust Decision-Making for Autonomous Driving on Highway [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10107652)][[Code](https://github.com/Kayne0401/Robust-Decision-Making-Framework)]
+40. `[IEEE Transactions on Transportation Electrification'23]` Interaction-Aware Decision-Making for Autonomous Vehicles [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10029923)]
 37. `[ICRA'23]` Failure Detection for Motion Prediction of Autonomous Driving: An Uncertainty Perspective [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10160596)]
 38. `[TITS'23]` Deep Multi-agent Reinforcement Learning for Highway On-Ramp Merging in Mixed Traffic [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10159552)[[Code]](https://github.com/DongChen06/MARL_CAVs)
 39. `[arXiv'23]` Spatial-Temporal-Aware Safe Multi-Agent Reinforcement Learning of Connected Autonomous Vehicles in Challenging Scenarios [[PDF]](https://arxiv.org/pdf/2210.02300)
@@ -224,24 +243,29 @@ In addition, if you want to **join our community** for discussion, sharing, conn
 
 
 ### Planning
-1. `[arXiv]` CoDriveVLM: VLM-Enhanced Urban Cooperative Dispatching and Motion Planning for Future Autonomous Mobility on Demand Systems [[PDF](https://arxiv.org/pdf/2501.06132)][[Code](https://github.com/henryhcliu/CoDriveVLM)]
-2. `[arXiv]` Improved Consensus ADMM for Cooperative Motion Planning of Large-Scale Connected Autonomous Vehicles with Limited Communication [[PDF](https://arxiv.org/pdf/2401.09032)][[Code](https://henryhcliu.github.io/icadmm_cmp_carla/)]
-3. `[arXiv]` THOMAS: TRAJECTORY HEATMAP OUTPUT WITH LEARNED MULTI-AGENT SAMPLING [[PDF](https://arxiv.org/pdf/2110.06607)]
-4. `[arXiv]` Real-Time Motion Prediction via Heterogeneous Polyline Transformer with Relative Pose Encoding [[PDF]([https://arxiv.org/pdf/2310.12970))][[Code](https://github.com/zhejz/HPTR)]
-5. `[TPAMI'24]` MTR++: Multi-Agent Motion Prediction with Symmetric Scene Modeling and Guided Intention Querying  [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10398503)]
-6. `[AAAI'24]` EDA: Evolving and Distinct Anchors for Multimodal Motion Prediction [[PDF](https://arxiv.org/pdf/2312.09501)] [[Code](https://github.com/Longzhong-Lin/EDA)]
-7. `[arXiv'25]` LeAD: The LLM Enhanced Planning System Converged with End-to-End Autonomous Driving [[PDF](https://arxiv.org/abs/2507.05754)]
-8. `[IEEE'25]` LLMDriver: Autonomous Driving Planning Based on Large Language Models [[PDF](https://ieeexplore.ieee.org/document/11174944/)]
-9. `[arXiv'25]` An LLM-Powered Cooperative Framework for Large-Scale Multi-Vehicle Navigation [[PDF](https://arxiv.org/abs/2510.07825)]
-10. `[ICRA'24]` Parallel Optimization with Hard Safety Constraints for Cooperative Planning of Connected Autonomous Vehicles [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10611158)]
-11. `[RAL'24]` SIMPL: A Simple and Efficient Multi-Agent Motion Prediction Baseline for Autonomous Driving [[PDF]](https://ieeexplore.ieee.org/abstract/document/10449378)
-12. `[RAL'24]` CMP: Cooperative Motion Prediction With Multi-Agent Communication [[PDF]](https://ieeexplore.ieee.org/abstract/document/10908648)
-13. `[NeurIPS'24]` SMART: Scalable Multi-agent Real-time Motion Generation via Next-token Prediction [[PDF](https://proceedings.neurips.cc/paper_files/paper/2024/file/cef5c8dec67597b854f0162ad76d92d2-Paper-Conference.pdf) [[Code]](https://github.com/rainmaker22/SMART)
-14. `[arXiv'25]` UNCAP: Uncertainty-Guided Neurosymbolic Planning [[PDF](https://arxiv.org/abs/2510.12992)]
-15. `[Electronics'25]` Eco-Cooperative Planning and Control of Connected Autonomous Vehicles Considering Energy Consumption Characteristics [[PDF](https://www.mdpi.com/2079-9292/14/8/1646)]
-16. `[IEEE'25]` Multiagent Trajectory Prediction With Difficulty-Guided Feature Enhancement [[PDF](https://ieeexplore.ieee.org/iel8/7083369/10849592/10854576.pdf)]
-17. `[ICCV'25]` Unified Multi-Agent Trajectory Modeling with Masked Trajectory Diffusion [[PDF](https://openaccess.thecvf.com/content/ICCV2025/papers/Yang_Unified_Multi-Agent_Trajectory_Modeling_with_Masked_Trajectory_Diffusion_ICCV_2025_paper.pdf)]
-18. `[IEEE Internet of Things Journal'24]` Coordination for Connected and Autonomous Vehicles at Unsignalized Intersections: An Iterative Learning-Based Collision-Free Motion Planning Method [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10224258)]
+1. `[ICCV'25 Workshop]` V2XPnP: Vehicle-to-Everything Spatio-Temporal Fusion for Multi-Agent Perception and Prediction [[PDF](https://drivex-workshop.github.io/iccv2025/)]
+2. `[ICCV'25 Workshop]` MAP: End-to-End Autonomous Driving with Map-Assisted Planning [[PDF](https://drivex-workshop.github.io/iccv2025/)]
+3. `[ICCV'25 Workshop]` The Role of Radar in End-to-End Autonomous Driving [[PDF](https://drivex-workshop.github.io/iccv2025/)]
+4. `[ICCV'25 Workshop]` Robust Scenario Mining Assisted by Multimodal Semantics [[PDF](https://drivex-workshop.github.io/iccv2025/)]
+5. `[ICCV'25 Workshop]` Improving Event-Phase Captions in Multi-View Urban Traffic Videos via Prompt-Aware LoRA Tuning of Vision Language Models [[PDF](https://drivex-workshop.github.io/iccv2025/)]
+6. `[arXiv]` CoDriveVLM: VLM-Enhanced Urban Cooperative Dispatching and Motion Planning for Future Autonomous Mobility on Demand Systems [[PDF](https://arxiv.org/pdf/2501.06132)][[Code](https://github.com/henryhcliu/CoDriveVLM)]
+7. `[arXiv]` Improved Consensus ADMM for Cooperative Motion Planning of Large-Scale Connected Autonomous Vehicles with Limited Communication [[PDF](https://arxiv.org/pdf/2401.09032)][[Code](https://henryhcliu.github.io/icadmm_cmp_carla/)]
+8. `[arXiv]` THOMAS: TRAJECTORY HEATMAP OUTPUT WITH LEARNED MULTI-AGENT SAMPLING [[PDF](https://arxiv.org/pdf/2110.06607)]
+9. `[arXiv]` Real-Time Motion Prediction via Heterogeneous Polyline Transformer with Relative Pose Encoding [[PDF]([https://arxiv.org/pdf/2310.12970))][[Code](https://github.com/zhejz/HPTR)]
+10. `[TPAMI'24]` MTR++: Multi-Agent Motion Prediction with Symmetric Scene Modeling and Guided Intention Querying  [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10398503)]
+11. `[AAAI'24]` EDA: Evolving and Distinct Anchors for Multimodal Motion Prediction [[PDF](https://arxiv.org/pdf/2312.09501)] [[Code](https://github.com/Longzhong-Lin/EDA)]
+12. `[arXiv'25]` LeAD: The LLM Enhanced Planning System Converged with End-to-End Autonomous Driving [[PDF](https://arxiv.org/abs/2507.05754)]
+13. `[IEEE'25]` LLMDriver: Autonomous Driving Planning Based on Large Language Models [[PDF](https://ieeexplore.ieee.org/document/11174944/)]
+14. `[arXiv'25]` An LLM-Powered Cooperative Framework for Large-Scale Multi-Vehicle Navigation [[PDF](https://arxiv.org/abs/2510.07825)]
+15. `[ICRA'24]` Parallel Optimization with Hard Safety Constraints for Cooperative Planning of Connected Autonomous Vehicles [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10611158)]
+16. `[RAL'24]` SIMPL: A Simple and Efficient Multi-Agent Motion Prediction Baseline for Autonomous Driving [[PDF]](https://ieeexplore.ieee.org/abstract/document/10449378)
+17. `[RAL'24]` CMP: Cooperative Motion Prediction With Multi-Agent Communication [[PDF]](https://ieeexplore.ieee.org/abstract/document/10908648)
+18. `[NeurIPS'24]` SMART: Scalable Multi-agent Real-time Motion Generation via Next-token Prediction [[PDF](https://proceedings.neurips.cc/paper_files/paper/2024/file/cef5c8dec67597b854f0162ad76d92d2-Paper-Conference.pdf) [[Code]](https://github.com/rainmaker22/SMART)
+19. `[arXiv'25]` UNCAP: Uncertainty-Guided Neurosymbolic Planning [[PDF](https://arxiv.org/abs/2510.12992)]
+20. `[Electronics'25]` Eco-Cooperative Planning and Control of Connected Autonomous Vehicles Considering Energy Consumption Characteristics [[PDF](https://www.mdpi.com/2079-9292/14/8/1646)]
+21. `[IEEE'25]` Multiagent Trajectory Prediction With Difficulty-Guided Feature Enhancement [[PDF](https://ieeexplore.ieee.org/iel8/7083369/10849592/10854576.pdf)]
+22. `[ICCV'25]` Unified Multi-Agent Trajectory Modeling with Masked Trajectory Diffusion [[PDF](https://openaccess.thecvf.com/content/ICCV2025/papers/Yang_Unified_Multi-Agent_Trajectory_Modeling_with_Masked_Trajectory_Diffusion_ICCV_2025_paper.pdf)]
+23. `[IEEE Internet of Things Journal'24]` Coordination for Connected and Autonomous Vehicles at Unsignalized Intersections: An Iterative Learning-Based Collision-Free Motion Planning Method [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10224258)]
 19. `[ICCV'23]` BiFF: Bi-level Future Fusion with Polyline-based Coordinate for Interactive Trajectory Prediction [[PDF](https://arxiv.org/pdf/2306.14161)]
 20. `[CVPR'23]` ProphNet: Efficient Agent-Centric Motion Forecasting with Anchor-Informed Proposals [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10204544)]
 21. `[CVPR'23]` FJMP: Factorized Joint Multi-Agent Motion Prediction over Learned Directed Acyclic Interaction Graphs [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10204178)][[Code](https://rluke22.github.io/FJMP/)]
@@ -283,7 +307,8 @@ In addition, if you want to **join our community** for discussion, sharing, conn
 
 
 ### End-to-End
-1. `[IV'24]` ICOP: Image-based Cooperative Perception for End-to-End Autonomous Driving [[paper](https://ieeexplore.ieee.org/abstract/document/10588825)]
+1. `[ICCV'25 Workshop]` Research Challenges and Progress in the End-to-End V2X Cooperative Autonomous Driving Competition [[PDF](https://drivex-workshop.github.io/iccv2025/)]
+2. `[IV'24]` ICOP: Image-based Cooperative Perception for End-to-End Autonomous Driving [[paper](https://ieeexplore.ieee.org/abstract/document/10588825)]
 2. `[TIV'23]` End-to-end Autonomous Driving with Semantic Depth Cloud Mapping and Multi-agent [[paper](https://doi.org/10.1109/TIV.2022.3185303)] [[code](https://github.com/oskarnatan/end-to-end-driving)]
 3. `[AAAI'22]` CADRE: A Cascade Deep Reinforcement Learning Framework for Vision-Based Autonomous Urban Driving [[paper](https://arxiv.org/abs/2202.08557)] [[code](https://github.com/BIT-MCS/Cadre.git)] ![](https://img.shields.io/github/stars/BIT-MCS/Cadre.svg?style=social&label=Star&maxAge=2592000)
 4. `[CVPR'22]` COOPERNAUT: End-to-End Driving with Cooperative Perception for Networked Vehicles [[paper](https://arxiv.org/abs/2205.02222)] [[code](https://github.com/UT-Austin-RPL/Coopernaut.git)] ![](https://img.shields.io/github/stars/UT-Austin-RPL/Coopernaut.svg?style=social&label=Star&maxAge=2592000)
@@ -301,7 +326,8 @@ In addition, if you want to **join our community** for discussion, sharing, conn
 ### Dataset and Simulator
 
 #### Dataset
-1. `[CoRL'17]` CARLA: An Open Urban Driving Simulator [[PDF](https://arxiv.org/abs/1711.03938)] [[Code](https://github.com/carla-simulator/carla)] [[Webpage](https://carla.org)] ![CARLA](https://img.shields.io/badge/-CARLA-blue)
+1. `[ICCV'25 Workshop]` HetroD: A High-Fidelity Drone Dataset and Benchmark for Heterogeneous Traffic in Autonomous Driving [[PDF](https://drivex-workshop.github.io/iccv2025/)]
+2. `[CoRL'17]` CARLA: An Open Urban Driving Simulator [[PDF](https://arxiv.org/abs/1711.03938)] [[Code](https://github.com/carla-simulator/carla)] [[Webpage](https://carla.org)] ![CARLA](https://img.shields.io/badge/-CARLA-blue)
 2. `[ICCV'21]` V2X-Sim: Multi-Agent Collaborative Perception Dataset and Benchmark for Autonomous Driving [[PDF](https://arxiv.org/abs/2202.08449)] [[Code](https://github.com/ai4ce/V2X-Sim)] [[Webpage](https://ai4ce.github.io/V2X-Sim)] ![V2X-Sim](https://img.shields.io/badge/-V2X--Sim-blue)
 3. `[ACCV'22]` DOLPHINS: Dataset for Collaborative Perception Enabled Harmonious and Interconnected Self-Driving [[PDF](https://arxiv.org/abs/2207.07609)] [[Code](https://github.com/explosion5/Dolphins)] [[Webpage](https://dolphins-dataset.net)] ![DOLPHINS](https://img.shields.io/badge/-DOLPHINS-blue)
 4. `[ICRA'22]` OPV2V: An Open Benchmark Dataset and Fusion Pipeline for Perception with Vehicle-to-Vehicle Communication [[PDF](https://arxiv.org/abs/2109.07644)] [[Code](https://github.com/DerrickXuNu/OpenCOOD)] [[Webpage](https://mobility-lab.seas.ucla.edu/opv2v)] ![OPV2V](https://img.shields.io/badge/-OPV2V-blue)
