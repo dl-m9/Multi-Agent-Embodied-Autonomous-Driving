@@ -418,6 +418,7 @@ Grouped by resource type: `Dataset` collects cooperative-perception or driving-m
 
 47. `[arXiv'24]` CoVLA: Comprehensive Vision-Language-Action Dataset for Autonomous Driving [[PDF](https://arxiv.org/abs/2408.10845)]
 48. `[arXiv'25]` NuPlanQA: A Large-Scale Dataset and Benchmark for Multi-View Driving Scene Understanding in Multi-Modal Large Language Models [[PDF](https://arxiv.org/abs/2503.12772)]
+49. `[arXiv'26]` V2X-QA: A Comprehensive Reasoning Dataset and Benchmark for Multimodal Large Language Models in Autonomous Driving Across Ego, Infrastructure, and Cooperative Views [[PDF](https://arxiv.org/abs/2604.02710)] [[Code](https://github.com/junwei0001/V2X-QA)] ![V2X-QA](https://img.shields.io/badge/-V2X--QA-blue)
 #### Simulator
 1. `[CoRL'17]` CARLA: An Open Urban Driving Simulator [[PDF](https://arxiv.org/abs/1711.03938)] [[Code](https://github.com/carla-simulator/carla)] [[Webpage](https://carla.org)] ![CARLA](https://img.shields.io/badge/-CARLA-blue)
 2. `[NeurIPS'24]` NAVSIM: Data-Driven Non-Reactive Autonomous Vehicle Simulation and Benchmarking [[PDF](https://arxiv.org/abs/2406.15349)] [[Code](https://github.com/autonomousvision/navsim)] [[Webpage](https://huggingface.co/spaces/AGC2024-P/e2e-driving-navsim)] ![NAVSIM](https://img.shields.io/badge/-NAVSIM-blue)
