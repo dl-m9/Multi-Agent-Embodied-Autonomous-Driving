@@ -1,15 +1,15 @@
-# Awesome Multi-Agent Autonomous Driving 🚗 🚙 🚓 🚕 🏎️
+# Awesome Multi-Agent Embodied Autonomous Driving 🚗 🚙 🚓 🚕 🏎️
 
-![MAAD](./src/maad.png)
+![MAEAD](./src/maad.png)
 <!-- <div align="center">
   <a href="./src/wechat.jpg">
     <img src="https://img.shields.io/badge/WeChat-MAADResearch-brightgreen?logo=wechat&logoColor=white" alt="WeChat">
   </a>
 </div> -->
 
-This is a repository for collecting resources about **Multi-Agent Autonomous Driving (MAAD)**. Different from single-agent autonomous driving which mainly focus on enhancing the driving capabilities of a single vehicle, MAAD focuses on the collaboration and interaction between multiple agents including vehicles and infrastructure.
+This is a repository for collecting resources about **Multi-Agent Embodied Autonomous Driving (MAEAD)**. Different from single-agent autonomous driving which mainly focus on enhancing the driving capabilities of a single vehicle, MAEAD focuses on the collaboration and interaction between multiple agents including vehicles and infrastructure. The term embodied emphasizes that these agents must perceive, reason, and act through a shared physical and communicative context rather than exchange data in isolation.
 
-If you want to understand the **FULL-STACK** technology of **MULTI-AGENT AUTONOMOUS DRIVING**, then this repo is definitely for you!
+If you want to understand the **FULL-STACK** technology of **MULTI-AGENT EMBODIED AUTONOMOUS DRIVING**, then this repo is definitely for you!
 
 ## Come and Join Us! 👊🇨🇳🔥
 
@@ -30,7 +30,7 @@ In addition, if you want to **join our community** for discussion, sharing, conn
 
 ## Table of Contents
 
-- [Awesome Multi-Agent Autonomous Driving 🚗 🚙 🚓 🚕 🏎️](#awesome-multi-agent-autonomous-driving-----️)
+- [Awesome Multi-Agent Embodied Autonomous Driving 🚗 🚙 🚓 🚕 🏎️](#awesome-multi-agent-embodied-autonomous-driving-----️)
   - [Come and Join Us! 👊🇨🇳🔥](#come-and-join-us-)
     - [Contribution](#contribution)
   - [Table of Contents](#table-of-contents)
