@@ -81,6 +81,8 @@ In addition, if you want to **join our community** for discussion, sharing, conn
 26. `[iScience'24]` Toward Autonomous Vehicles: A Survey on Cooperative Vehicle-Infrastructure System [[PDF](https://doi.org/10.1016/j.isci.2024.109751)]
 27. `[Engineering'25]` A Survey on Large Language Model-Powered Autonomous Driving [[PDF](https://doi.org/10.1016/j.eng.2025.07.038)]
 28. `[Autonomous Intelligent Systems'22]` Multi-agent Reinforcement Learning for Autonomous Vehicles: A Survey [[PDF](https://doi.org/10.1007/s43684-022-00045-z)]
+29. `[arXiv'26]` Multi-Agent Embodied Autonomous Driving: From V2X Information Exchange to Shared World Models [[PDF](https://arxiv.org/abs/2606.13840)]
+30. `[arXiv'26]` SoK: Federated Learning for Intrusion Detection in Vehicular Networks [[PDF](https://arxiv.org/abs/2607.10914)]
 
 ### GitHub Repos
 1. [Awesome Autonomous Driving](https://github.com/PeterJaq/Awesome-Autonomous-Driving) ![](https://img.shields.io/github/stars/PeterJaq/Awesome-Autonomous-Driving.svg?style=social&label=Star&maxAge=2592000)
@@ -182,6 +184,22 @@ Grouped by function: `Perception` focuses on cooperative sensing and fusion; `De
 72. `[CoRL'22]` Multi-Robot Scene Completion: Towards Task-Agnostic Collaborative Perception [[PDF](https://proceedings.mlr.press/v205/li23e/li23e.pdf)] [[Code](https://github.com/coperception/star)] ![](https://img.shields.io/github/stars/coperception/star.svg?style=social&label=Star&maxAge=2592000)
 73. `[ACMMM'22]` Complementarity-Enhanced and Redundancy-Minimized Collaboration Network for Multi-agent Perception [[PDF](https://dl.acm.org/doi/abs/10.1145/3503161.3548197)]
 74. `[ICRA'22]` Multi-Robot Collaborative Perception with Graph Neural Networks [[PDF](https://arxiv.org/abs/2201.01760)]
+75. `[arXiv'26]` Towards Collaborative Joint Perception and Prediction: Framework, Baseline Evaluation, and Deployment Perspectives [[PDF](https://arxiv.org/abs/2608.09541)]
+76. `[arXiv'26]` HeteroPROPMT: A Real-time and Privacy-Preserving Heterogeneous Collaborative Perception Framework [[PDF](https://arxiv.org/abs/2607.26283)]
+77. `[arXiv'26]` Domain-Generalized Adaptive Semantic Communication for Collaborative Perception [[PDF](https://arxiv.org/abs/2608.00056)]
+78. `[arXiv'26]` RECO: Region-Aware Compensation for Extrinsic Perturbations in Roadside 3D Detection [[PDF](https://arxiv.org/abs/2607.20947)]
+79. `[arXiv'26]` CoGoal3D: Collaborative 3D Object Detection with 3D-Aware Fusion and Refinement [[PDF](https://arxiv.org/abs/2607.19036)]
+80. `[arXiv'26]` Communication-Efficient Relative Pose Estimation with Vision Foundation Models for Ephemeral Collaborative Perception [[PDF](https://arxiv.org/abs/2607.14539)]
+81. `[arXiv'26]` ViCo3D: Empowering LiDAR-based Collaborative 3D Object Detection with Vision Foundation Models [[PDF](https://arxiv.org/abs/2607.12959)]
+82. `[arXiv'26]` Sparse-Aware Vector Quantization for Bandwidth-Efficient Collaborative 3D Semantic Occupancy Prediction [[PDF](https://arxiv.org/abs/2607.01928)]
+83. `[arXiv'26]` HydraCollab: Adaptive Collaborative-Perception for Distributed Autonomous Systems [[PDF](https://arxiv.org/abs/2607.00191)]
+84. `[arXiv'26]` Lightweight Multi-Vehicle Collaborative Perception Acceleration with Fusion Position Adjustment [[PDF](https://arxiv.org/abs/2606.27750)]
+85. `[arXiv'26]` DinoLink: A Token-Centric Representation Compression Framework for Bandwidth-Constrained Collaborative V2X Perception [[PDF](https://arxiv.org/abs/2606.26398)]
+86. `[arXiv'26]` UECP: Uncertainty-Enhanced Collaborative Perception [[PDF](https://arxiv.org/abs/2606.23046)]
+87. `[arXiv'26]` INTACT: Ego-Guided Typed Sparse Evidence Retrieval for Heterogeneous Collaborative Perception [[PDF](https://arxiv.org/abs/2606.04437)]
+88. `[arXiv'26]` 4D Radar Meets LiDAR and Camera: Cooperative Perception under Adverse Weather [[PDF](https://arxiv.org/abs/2606.00416)]
+89. `[arXiv'26]` Camera and LiDAR BEV Fusion for Cooperative 3D Object Detection on TUMTraf V2X [[PDF](https://arxiv.org/abs/2606.12981)]
+90. `[arXiv'26]` Rethinking Air-Ground Collaboration: A Progressive Cross-Task Benchmark and Socialized Learning Framework [[PDF](https://arxiv.org/abs/2606.18841)]
 
 ### Decision-Making
 1. `[ICCV'25 Workshop]` Drive-R1: Bridging Reasoning and Planning in VLMs for Autonomous Driving with Reinforcement Learning [[PDF](https://drivex-workshop.github.io/iccv2025/)]
@@ -245,6 +263,10 @@ Grouped by function: `Perception` focuses on cooperative sensing and fusion; `De
 59. `[Autonomous Intelligent Systems'22]` Multi-agent reinforcement learning for autonomous vehicles: a survey [[PDF](https://link.springer.com/article/10.1007/s43684-022-00045-z)]
 60. `[IROS'21]` Cooperative Autonomous Vehicles that Sympathize with Human Drivers [[PDF](https://dl.acm.org/doi/10.1109/IROS51168.2021.9636151)] [[Code](https://github.com/BehradToghi/SymCoDrive_IROS2021)]
 61. `[TITS'25]` LEAD: Learning-Enhanced Adaptive Decision-Making for Autonomous Driving in Dynamic Environments [[PDF](https://ieeexplore.ieee.org/document/10931823)]
+62. `[arXiv'26]` LLM-Assisted Coalition Formation for Cooperative Perception in Autonomous Driving [[PDF](https://arxiv.org/abs/2608.00690)]
+63. `[arXiv'26]` MIND-CAVs: Multi-Intelligence Negotiation and Decision System for CAVs based on Intent-Driven Autonomy [[PDF](https://arxiv.org/abs/2607.14688)]
+64. `[arXiv'26]` Plug-and-Play Reweighting for Resilient Collaborative Decision-Making in Connected Autonomous Driving [[PDF](https://arxiv.org/abs/2607.10037)]
+65. `[arXiv'26]` When Cooperation Should End: Maneuver Coordination Cancellation for Connected Automated Driving [[PDF](https://arxiv.org/abs/2606.22052)]
 
 ### Planning
 1. `[ICCV'25 Workshop]` V2XPnP: Vehicle-to-Everything Spatio-Temporal Fusion for Multi-Agent Perception and Prediction [[PDF](https://drivex-workshop.github.io/iccv2025/)]
@@ -301,6 +323,8 @@ Grouped by function: `Perception` focuses on cooperative sensing and fusion; `De
 
    
 52. `[arXiv'24]` PlanAgent: A Multi-modal Large Language Agent for Closed-loop Vehicle Motion Planning [[PDF](https://arxiv.org/abs/2406.01587)]
+53. `[arXiv'26]` FORESEE: A Cooperative Lane Change Model for Connected and Automated Driving [[PDF](https://arxiv.org/abs/2606.24201)]
+54. `[arXiv'26]` Integrity-Gated Eco-CACC: Epistemic Admissibility for Cooperative Driving at Signalized Intersections [[PDF](https://arxiv.org/abs/2607.18565)]
 
 ### Communication
 1. `[IEEE Std'10/'19]` IEEE 802.11p/WAVE: vehicular wireless access and networking services [[802.11p](https://doi.org/10.1109/IEEESTD.2010.5514475)] [[1609.3](https://standards.ieee.org/ieee/1609.3/10258/)]
@@ -329,6 +353,11 @@ Grouped by function: `Perception` focuses on cooperative sensing and fusion; `De
 24. `[ICRA'23]` Communication-Critical Planning via Multi-Agent Trajectory Exchange [[PDF](https://arxiv.org/abs/2303.06080)]
 25. `[ICRA'23]` We Need to Talk: Identifying and Overcoming Communication-Critical Scenarios for Self-Driving [[PDF](https://arxiv.org/abs/2305.04352)]
 26. `[IJCAI'22]` Robust Collaborative Perception against Communication Interruption [[PDF](https://learn-to-race.org/workshop-ai4ad-ijcai2022/papers.html)]
+27. `[arXiv'26]` Semantic and Task-Oriented V2X Communications: Pushing the Limits of V2X Networks Scalability [[PDF](https://arxiv.org/abs/2606.09126)]
+28. `[arXiv'26]` Exploring LLM in Semantic Communication for V2X Networks [[PDF](https://arxiv.org/abs/2606.20576)]
+29. `[arXiv'26]` CABLE: Cloud-Assisted Bandwidth-efficient LMM-based Encoding for V2X Systems [[PDF](https://arxiv.org/abs/2606.19258)]
+30. `[arXiv'26]` Update the Unseen Only: Minimizing AoI for Collaborative Perception through Online Learning [[PDF](https://arxiv.org/abs/2607.20967)]
+31. `[arXiv'26]` Uplink-Completion-Triggered Edge-GPU Inference for Multi-Agent Cooperative Perception [[PDF](https://arxiv.org/abs/2608.08330)]
 
 ### End-to-End
 1. `[ICCV'25 Workshop]` Research Challenges and Progress in the End-to-End V2X Cooperative Autonomous Driving Competition [[PDF](https://drivex-workshop.github.io/iccv2025/)]
@@ -350,6 +379,9 @@ Grouped by function: `Perception` focuses on cooperative sensing and fusion; `De
 17. `[AAAI'22]` CADRE: A Cascade Deep Reinforcement Learning Framework for Vision-Based Autonomous Urban Driving [[PDF](https://arxiv.org/abs/2202.08557)] [[Code](https://github.com/BIT-MCS/Cadre.git)] ![](https://img.shields.io/github/stars/BIT-MCS/Cadre.svg?style=social&label=Star&maxAge=2592000)
 18. `[NeurIPS'21]` Learning to Simulate Self-Driven Particles System with Coordinated Policy Optimization [[PDF](https://arxiv.org/pdf/2110.13827)] [[Code](https://github.com/decisionforce/CoPO.git)] [[Webpage](https://decisionforce.github.io/CoPO/)]
 19. `[arXiv'24]` End-to-End Autonomous Driving through V2X Cooperation [[PDF](https://arxiv.org/abs/2404.00717)] [[Code](https://github.com/AIR-THU/UniV2X)] ![](https://img.shields.io/github/stars/AIR-THU/UniV2X.svg?style=social&label=Star&maxAge=2592000)
+20. `[arXiv'26]` DH-VLM: Dual-Horizon Cooperative Latent Reasoning for Autonomous Driving [[PDF](https://arxiv.org/abs/2608.09333)]
+21. `[arXiv'26]` Defer to Plan: Adaptive Multi-Agent Fusion for End-to-End V2X Driving [[PDF](https://arxiv.org/abs/2607.19774)]
+22. `[arXiv'26]` OmniV2X: A Generative Foundation Planner for Efficient End-to-End Cooperative Driving [[PDF](https://arxiv.org/abs/2606.21165)]
 
 ### World Models and Generative Simulation
 1. `[ICLR'26]` DrivingGen: A Comprehensive Benchmark for Generative Video World Models in Autonomous Driving [[PDF](https://arxiv.org/abs/2601.01528)] [[Webpage](https://drivinggen-bench.github.io/)]
@@ -419,6 +451,10 @@ Grouped by resource type: `Dataset` collects cooperative-perception or driving-m
 47. `[arXiv'24]` CoVLA: Comprehensive Vision-Language-Action Dataset for Autonomous Driving [[PDF](https://arxiv.org/abs/2408.10845)]
 48. `[arXiv'25]` NuPlanQA: A Large-Scale Dataset and Benchmark for Multi-View Driving Scene Understanding in Multi-Modal Large Language Models [[PDF](https://arxiv.org/abs/2503.12772)]
 49. `[arXiv'26]` V2X-QA: A Comprehensive Reasoning Dataset and Benchmark for Multimodal Large Language Models in Autonomous Driving Across Ego, Infrastructure, and Cooperative Views [[PDF](https://arxiv.org/abs/2604.02710)] [[Code](https://github.com/junwei0001/V2X-QA)] ![V2X-QA](https://img.shields.io/badge/-V2X--QA-blue)
+50. `[arXiv'26]` SimBEV2X: A Large-Scale Dataset and Data Generation Tool for Multi-Task Vehicle-to-Everything Cooperative Perception [[PDF](https://arxiv.org/abs/2607.23910)]
+51. `[arXiv'26]` CooperScene: Multi-Modal Cooperative Autonomy Benchmark with C-V2X Communication Characterization [[PDF](https://arxiv.org/abs/2606.31219)]
+52. `[arXiv'26]` RESOLVE: A Multi-Resolution and Multi-Modal Dataset for Roadside Cooperative Perception [[PDF](https://arxiv.org/abs/2606.31895)]
+53. `[arXiv'26]` CMU-Drive and V2V-VLA: Cooperative Multi-agent Unified Driving with Reasoning Benchmark and Vehicle-to-Vehicle Vision-Language-Action Models [[PDF](https://arxiv.org/abs/2608.07621)]
 #### Simulator
 1. `[CoRL'17]` CARLA: An Open Urban Driving Simulator [[PDF](https://arxiv.org/abs/1711.03938)] [[Code](https://github.com/carla-simulator/carla)] [[Webpage](https://carla.org)] ![CARLA](https://img.shields.io/badge/-CARLA-blue)
 2. `[NeurIPS'24]` NAVSIM: Data-Driven Non-Reactive Autonomous Vehicle Simulation and Benchmarking [[PDF](https://arxiv.org/abs/2406.15349)] [[Code](https://github.com/autonomousvision/navsim)] [[Webpage](https://huggingface.co/spaces/AGC2024-P/e2e-driving-navsim)] ![NAVSIM](https://img.shields.io/badge/-NAVSIM-blue)
@@ -433,6 +469,11 @@ Grouped by resource type: `Dataset` collects cooperative-perception or driving-m
 10. `[IV'24]` LimSim++: A Closed-Loop Platform for Deploying Multimodal LLMs in Autonomous Driving [[PDF](https://ieeexplore.ieee.org/document/10588848)] [[Webpage](https://pjlab-adg.github.io/limsim-plus/)]
 11. `[arXiv'23]` Multi-Agent Deep Reinforcement Learning for Cooperative and Competitive Autonomous Vehicles using AutoDRIVE Ecosystem [[PDF](https://arxiv.org/abs/2309.10007)] [[Code](https://github.com/AutoDRIVE-Ecosystem/MRDT-MARL)] [[Webpage](https://autodrive-ecosystem.github.io/)]
 12. `[CVPR'24]` Editable Scene Simulation for Autonomous Driving via Collaborative LLM-Agents [[PDF](https://arxiv.org/abs/2402.05746)] [[Code](https://github.com/yifanlu0227/ChatSim)] [[Webpage](https://yifanlu0227.github.io/ChatSim/)] ![ChatSim](https://img.shields.io/badge/-ChatSim-blue)
+13. `[arXiv'26]` HERCULES: An Open-Source Simulation Framework for Heterogeneous Multi-Robot SLAM, Collaborative Perception, and Exploration [[PDF](https://arxiv.org/abs/2606.22756)]
+14. `[arXiv'26]` CADET: A Modular Platform for Evaluating Distributed Cooperative Autonomy in Connected Autonomous Vehicles [[PDF](https://arxiv.org/abs/2606.04072)]
+15. `[arXiv'26]` Scale-CDA: A Scalable Retrofit Platform for Cooperative Driving Automation in Production Vehicles [[PDF](https://arxiv.org/abs/2608.04235)]
+16. `[arXiv'26]` A Deployed Hybrid Vehicle-in-the-Loop Platform for Validating Cooperative Perception [[PDF](https://arxiv.org/abs/2607.13806)]
+17. `[arXiv'26]` Beyond Line of Sight: Hybrid Validation of V2X Collective Perception in Complex Scenarios [[PDF](https://arxiv.org/abs/2607.00874)]
 
 ### Security and Robustness
 1. `[TMC'25]` Collaborative Perception Against Data Fabrication Attacks in Vehicular Networks [[PDF](https://ieeexplore.ieee.org/abstract/document/11006384)]
@@ -462,6 +503,9 @@ Grouped by resource type: `Dataset` collects cooperative-perception or driving-m
 25. `[IEEE'25]` Robust Collaborative Perception: Combining Adversarial Training with Consensus Mechanism for Enhanced V2X Security [[PDF](https://ieeexplore.ieee.org/abstract/document/11097632/)]
 26. `[TMC'26 Early Access]` CP-UniGuard: Unified Malicious Agent Detection and Defense in Collaborative Perception [[PDF](https://doi.org/10.1109/TMC.2026.3650980)]
 27. `[arXiv'26]` MVIG: Learning Mutual View Information Graph for Adaptive Adversarial Collaborative Perception [[PDF](https://arxiv.org/abs/2602.19596)]
+28. `[arXiv'26]` GLST: Defending Confidence-Driven V2X Collaborative Perception Against Stealthy Multi-Attacker Feature Injection [[PDF](https://arxiv.org/abs/2607.23059)]
+29. `[arXiv'26]` Sarus: Privacy-Preserving Multi-Vendor Perception Fusion via Homomorphic Encryption [[PDF](https://arxiv.org/abs/2607.19146)]
+30. `[arXiv'26]` GNSS Spoofing Threat for V2X communications [[PDF](https://arxiv.org/abs/2606.20215)]
 
 ## Star History
 
