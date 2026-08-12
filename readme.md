@@ -267,6 +267,11 @@ Grouped by function: `Perception` focuses on cooperative sensing and fusion; `De
 63. `[arXiv'26]` MIND-CAVs: Multi-Intelligence Negotiation and Decision System for CAVs based on Intent-Driven Autonomy [[PDF](https://arxiv.org/abs/2607.14688)]
 64. `[arXiv'26]` Plug-and-Play Reweighting for Resilient Collaborative Decision-Making in Connected Autonomous Driving [[PDF](https://arxiv.org/abs/2607.10037)]
 65. `[arXiv'26]` When Cooperation Should End: Maneuver Coordination Cancellation for Connected Automated Driving [[PDF](https://arxiv.org/abs/2606.22052)]
+66. `[arXiv'26]` Compact Latent Coordination for Autonomous Vehicles at Unsignalized Intersections [[PDF](https://arxiv.org/abs/2607.21488)]
+67. `[arXiv'26]` Policy Optimality Measurement for Multi-Vehicle Decision-Making: From Extrinsic Indicators to Intrinsic Quality [[PDF](https://arxiv.org/abs/2608.01133)]
+68. `[arXiv'26]` A Distributionally Robust Multi-agent Reinforcement Learning Framework for Intelligent Intersection Control [[PDF](https://arxiv.org/abs/2607.09899)]
+69. `[arXiv'26]` GNN-based Multi-Agent Control of Traffic Shockwaves in Sparse Vehicular Ad-hoc Networks [[PDF](https://arxiv.org/abs/2607.23792)]
+70. `[arXiv'26]` Decentralized Autonomous Traffic Management through Corridor Networks [[PDF](https://arxiv.org/abs/2606.23585)]
 
 ### Planning
 1. `[ICCV'25 Workshop]` V2XPnP: Vehicle-to-Everything Spatio-Temporal Fusion for Multi-Agent Perception and Prediction [[PDF](https://drivex-workshop.github.io/iccv2025/)]
@@ -358,6 +363,8 @@ Grouped by function: `Perception` focuses on cooperative sensing and fusion; `De
 29. `[arXiv'26]` CABLE: Cloud-Assisted Bandwidth-efficient LMM-based Encoding for V2X Systems [[PDF](https://arxiv.org/abs/2606.19258)]
 30. `[arXiv'26]` Update the Unseen Only: Minimizing AoI for Collaborative Perception through Online Learning [[PDF](https://arxiv.org/abs/2607.20967)]
 31. `[arXiv'26]` Uplink-Completion-Triggered Edge-GPU Inference for Multi-Agent Cooperative Perception [[PDF](https://arxiv.org/abs/2608.08330)]
+32. `[arXiv'26]` Can the Cloud Drive? Infrastructure Feasibility of Offloading Autonomous Driving Across 5G and 6G [[PDF](https://arxiv.org/abs/2607.09045)]
+33. `[arXiv'26]` Extending Responsibility-Sensitive Safety for the Assessment of Offloaded Autonomous Driving Services [[PDF](https://arxiv.org/abs/2606.07067)]
 
 ### End-to-End
 1. `[ICCV'25 Workshop]` Research Challenges and Progress in the End-to-End V2X Cooperative Autonomous Driving Competition [[PDF](https://drivex-workshop.github.io/iccv2025/)]
@@ -396,6 +403,10 @@ Grouped by function: `Perception` focuses on cooperative sensing and fusion; `De
 10. `[arXiv'25]` GAIA-2: A Controllable Multi-View Generative World Model for Autonomous Driving [[PDF](https://arxiv.org/abs/2503.20523)]
 11. `[ICCV'25]` Epona: Autoregressive Diffusion World Model for Autonomous Driving [[PDF](https://arxiv.org/abs/2506.24113)]
 12. `[arXiv'25]` MiLA: Multi-view Intensive-fidelity Long-term Video Generation World Model for Autonomous Driving [[PDF](https://arxiv.org/abs/2503.15875)]
+13. `[arXiv'26]` OmniDrive: An LLM-Choreographed Multi-Agent World Model with Unified Latent Co-Compression for Multi-View Driving Video Generation [[PDF](https://arxiv.org/abs/2606.17536)]
+14. `[arXiv'26]` World Models as Adversaries: Multi-Agent Self-Play Fine-Tuning for Robust Motion Planning [[PDF](https://arxiv.org/abs/2607.10630)]
+15. `[arXiv'26]` NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation [[PDF](https://arxiv.org/abs/2606.03159)]
+16. `[arXiv'26]` ReactSim-Bench: Benchmarking Reactive Behavior World Model Simulation in Autonomous Driving [[PDF](https://arxiv.org/abs/2606.14058)]
 
 ### Dataset and Simulator
 Grouped by resource type: `Dataset` collects cooperative-perception or driving-model benchmarks, while `Simulator` collects closed-loop platforms, scenario libraries, and LLM-assisted scenario-generation tools.
@@ -506,6 +517,9 @@ Grouped by resource type: `Dataset` collects cooperative-perception or driving-m
 28. `[arXiv'26]` GLST: Defending Confidence-Driven V2X Collaborative Perception Against Stealthy Multi-Attacker Feature Injection [[PDF](https://arxiv.org/abs/2607.23059)]
 29. `[arXiv'26]` Sarus: Privacy-Preserving Multi-Vendor Perception Fusion via Homomorphic Encryption [[PDF](https://arxiv.org/abs/2607.19146)]
 30. `[arXiv'26]` GNSS Spoofing Threat for V2X communications [[PDF](https://arxiv.org/abs/2606.20215)]
+31. `[arXiv'26]` BARD-MARL: Byzantine-Agent Detection for Learned Communication in Multi-Agent Reinforcement Learning [[PDF](https://arxiv.org/abs/2606.20701)]
+32. `[arXiv'26]` Formal Verification of Learned Multi-Agent Communication Policies via Decision Tree Distillation [[PDF](https://arxiv.org/abs/2606.19632)]
+33. `[arXiv'26]` BadDreamer: Transferable Backdoor Attacks against Video World Models for Autonomous Driving [[PDF](https://arxiv.org/abs/2606.21172)]
 
 ## Star History
 
