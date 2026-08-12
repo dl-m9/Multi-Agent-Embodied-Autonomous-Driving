@@ -1,6 +1,10 @@
 # Awesome Multi-Agent Embodied Autonomous Driving 🚗 🚙 🚓 🚕 🏎️
 
-[![arXiv](https://img.shields.io/badge/arXiv-2606.13840-b31b1b.svg)](https://arxiv.org/abs/2606.13840)
+<div align="center">
+  <a href="https://arxiv.org/abs/2606.13840">
+    <img src="https://img.shields.io/badge/arXiv-2606.13840-b31b1b.svg" alt="arXiv">
+  </a>
+</div>
 
 ![MAEAD](./src/maad.png)
 <!-- <div align="center">
