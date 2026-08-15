@@ -394,7 +394,7 @@ Grouped by function: `Perception` focuses on cooperative sensing and fusion; `De
 19. `[arXiv'24]` End-to-End Autonomous Driving through V2X Cooperation [[PDF](https://arxiv.org/abs/2404.00717)] [[Code](https://github.com/AIR-THU/UniV2X)] ![](https://img.shields.io/github/stars/AIR-THU/UniV2X.svg?style=social&label=Star&maxAge=2592000)
 20. `[arXiv'26]` DH-VLM: Dual-Horizon Cooperative Latent Reasoning for Autonomous Driving [[PDF](https://arxiv.org/abs/2608.09333)]
 21. `[arXiv'26]` Defer to Plan: Adaptive Multi-Agent Fusion for End-to-End V2X Driving [[PDF](https://arxiv.org/abs/2607.19774)]
-22. `[arXiv'26]` OmniV2X: A Generative Foundation Planner for Efficient End-to-End Cooperative Driving [[PDF](https://arxiv.org/abs/2606.21165)]
+22. `[IROS'26]` OmniV2X: A Generative Foundation Planner for Efficient End-to-End Cooperative Driving [[PDF](https://arxiv.org/abs/2606.21165)] [[Code](https://github.com/JuntongPeng/OmniV2X)]
 
 ### World Models and Generative Simulation
 1. `[ICLR'26]` DrivingGen: A Comprehensive Benchmark for Generative Video World Models in Autonomous Driving [[PDF](https://arxiv.org/abs/2601.01528)] [[Webpage](https://drivinggen-bench.github.io/)]
